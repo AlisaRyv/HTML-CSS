@@ -1,0 +1,8 @@
+.item{
+    width: 200px;
+    height: 200px;
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 21px 23px 38px 13px rgba(8,0,112,0.68);
+    border-radius: 15px;
+}
