@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fdceb9;
+    background-color: #fdd4c2;
     height: 200px;
     width: 200px;
 }
@@ -24,6 +24,16 @@
 .dancing-script {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
 }
