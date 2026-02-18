@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+}
+.square:hover{
+    background-color: gray;
+    border-radius: 50%;
+    transition: 1s;
+}
