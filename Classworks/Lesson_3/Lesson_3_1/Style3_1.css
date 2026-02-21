@@ -1,0 +1,14 @@
+div{
+    width: 10vmax;
+    height: 10vmax;
+    background-color: seagreen;
+}
+body{
+    font-size: 26px;
+}
+p{
+    font-size: 1rem;
+}
+html{
+    font-size: 26px;
+}
