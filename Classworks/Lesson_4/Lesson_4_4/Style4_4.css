@@ -7,7 +7,21 @@ header, footer{
     height: 22vh;
     background: #D9D9D9;
 }
-main{
+.main_1{
     height: 56vh;
+    background: #A4A4A4;
+}
+.main_2{
+    height: 56vh;
+    display: flex;
+}
+.main_2 aside{
+    height: 100%;
+    width: 27vw;
+    background: #C0BDBD;
+}
+.main_2 section{
+    height: 100%;
+    width: 46vw;
     background: #A4A4A4;
 }
