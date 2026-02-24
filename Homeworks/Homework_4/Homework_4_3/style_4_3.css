@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*------------------------ NAV -----------------------------*/
+nav{
+    height: 5vh;
+    background: #D9D9D9;
+}
+/*------------------------------ MAIN ---------------------------------*/
+main{
+    display: flex;
+}
+section{
+    height: 74vh;
+    width: 60vw;
+    background: #A4A4A4;
+}
+#top-aside{
+    width: 40vw;
+    height: 40vh;
+    background: #7F7A7A;
+}
+#bottom-aside{
+    width: 40vw;
+    height: 34vh;
+    background: #615050;
+}
+/*-------------------------- FOOTER ---------------------------------*/
+#footer-top{
+    height: 10vh;
+    background: #D9D9D9;
+}
+#footer-bottom{
+    height: 11vh;
+    background: #AFA9A9;
+}
