@@ -14,7 +14,7 @@ main{
     height: 86vh;
 }
 section{
-    width: 30vw;
+    width: 28vw;
     height: 100%;
     background: #A4A4A4;
 }
@@ -23,14 +23,14 @@ article{
     height: 100%;
     background: #C1C1C1;
 }
-#aside_top{
-    width: 40vw;
+aside{
+    width: 42vw;
     height: 50%;
+}
+#aside_top{
     background: #7F7A7A;
 }
 #aside_bottom{
-    width: 40vw;
-    height: 50%;
     background: #6B6161;
 }
 /*-------------------------------- FOOTER ---------------------------------*/
