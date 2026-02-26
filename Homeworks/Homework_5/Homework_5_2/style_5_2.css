@@ -1,11 +1,41 @@
-#circle{
+.circle{
     margin: 20vh auto;
     width: 30vh;
     height: 30vh;
     border-radius: 50%;
-    border-top: white 20px solid;
-    border-bottom: white 20px solid;
-    border-left: seagreen 20px solid;
-    border-right: seagreen 20px solid;
-    animation: rotate 10s linear infinite;
+    background-color: yellow;
+    animation: wink 10s linear infinite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    animation: wink 10s linear infinite;
+}
+.eye{
+    width: 60px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+}
+.pupil{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+@keyframes wink {
+    from{
+
+    }
+    50%{
+        transform: scale(1.2) translateY(10vh);
+        color: black;
+    }
+    to{
+
+    }
 }
