@@ -1,0 +1,11 @@
+#circle{
+    margin: 20vh auto;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    border-top: white 20px solid;
+    border-bottom: white 20px solid;
+    border-left: seagreen 20px solid;
+    border-right: seagreen 20px solid;
+    animation: rotate 10s linear infinite;
+}
