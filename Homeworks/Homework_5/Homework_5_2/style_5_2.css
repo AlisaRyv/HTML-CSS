@@ -4,6 +4,7 @@
     height: 30vh;
     border-radius: 50%;
     background-color: yellow;
+    box-shadow: 4px 4px 4px 4px rgba(205,224,66,0.76) inset;
     animation: wink 10s linear infinite;
     display: flex;
     justify-content: space-between;
