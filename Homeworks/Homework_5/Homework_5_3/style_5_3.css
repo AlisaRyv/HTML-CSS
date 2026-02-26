@@ -1,0 +1,21 @@
+body{
+    background-image: url("img/river.png");
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#ship{
+    height: 250px;
+    width: 250px;
+    display: block;
+    /*transform: translateY(60vh);*/
+    animation: swim 20s infinite ease-in-out;
+}
+@keyframes swim {
+    from {
+    }
+    20%{
+        transform: translate(30px,30px);
+    }
+}
