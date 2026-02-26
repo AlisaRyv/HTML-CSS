@@ -1,21 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-image: url("img/river.png");
-    background-size: cover;
-    object-fit: cover;
-    background-position: center;
-    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#ship{
-    height: 250px;
-    width: 250px;
-    display: block;
-    /*transform: translateY(60vh);*/
-    animation: swim 20s infinite ease-in-out;
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
-@keyframes swim {
+.river{
+    height: 20vh;
+    width: 60vw;
+}
+.ship{
+    height: 100px;
+    width: 100px;
+    animation: ship 5s linear infinite alternate;
+}
+@keyframes ship {
     from {
+        transform: translate(0,0);
     }
-    20%{
-        transform: translate(30px,30px);
+    14%{
+        transform: translate(60px,30px);
+    }
+    28%{
+        transform: translate(170px,-10px);
+    }
+    42%{
+        transform: translate(270px,30px);
+    }
+    56%{
+        transform: translate(370px,-10px);
+    }
+    70%{
+        transform: translate(490px,30px);
+    }
+    84%{
+        transform: translate(570px,-10px);
+    }
+    98%{
+        transform: translate(700px,30px);
+    }
+    to{
+        transform: translate(700px,30px);
     }
 }
