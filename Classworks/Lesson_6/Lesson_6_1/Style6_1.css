@@ -1,0 +1,18 @@
+body p.lorem{
+    color: orange;
+}
+p.text{
+    color: blue;
+}
+p{
+    color: green;
+}
+section p.lorem{
+    color: cyan;
+}
+section div p.text{
+    color: red;
+}
+section div.box p.text{
+    color: blueviolet;
+}
