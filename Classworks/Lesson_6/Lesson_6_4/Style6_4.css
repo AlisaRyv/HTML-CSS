@@ -1,0 +1,21 @@
+button:hover{
+    background-color: green;
+}
+button:active{
+    background-color: blue;
+}
+a:link {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+li::marker {
+    color: yellow;
+}
+p::selection {
+    background-color: black;
+    color: white;
+}
