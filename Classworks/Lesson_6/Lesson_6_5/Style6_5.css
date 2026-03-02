@@ -1,0 +1,19 @@
+ul li::after{
+    content: "!!!!!!!";
+    color: red;
+}
+ul{
+    padding-inline-start: 10px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background-image: url("https://cdn-icons-png.freepik.com/128/3193/3193486.png");
+    background-size: cover;
+}
