@@ -1,0 +1,9 @@
+.first-block>li:nth-child(even){
+    color: deeppink;
+}
+.second-block>li:nth-child(odd){
+    font-size: 22px;
+}
+.third-block>li:nth-child(2n+4)::after{
+    content: "!";
+}
