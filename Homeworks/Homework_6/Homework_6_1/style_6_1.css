@@ -1,16 +1,16 @@
-.first-block>li:nth-child(even){
+.first-block>ul>li:nth-child(even){
     color: deeppink;
 }
-.second-block>li:nth-child(odd){
+.second-block>ul>li:nth-child(odd){
     font-size: 22px;
 }
-.third-block>li:nth-child(2n+4)::after{
+.third-block>ul>li:nth-child(2n+4)::after{
     content: "!";
 }
-.fourth-block>li:last-child{
+.fourth-block>ul>li:last-child{
     color: purple;
 }
-.fifth-block>li:first-letter{
+.fifth-block>ul>li:first-letter{
     color: red;
     font-size: 30px;
 }
