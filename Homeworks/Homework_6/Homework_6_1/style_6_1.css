@@ -7,3 +7,10 @@
 .third-block>li:nth-child(2n+4)::after{
     content: "!";
 }
+.fourth-block>li:last-child{
+    color: purple;
+}
+.fifth-block>li:first-letter{
+    color: red;
+    font-size: 30px;
+}
