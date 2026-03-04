@@ -11,3 +11,22 @@ input{
 textarea{
     resize: none;
 }
+.form-registration{
+    border: 3px solid lightseagreen;
+    width: 30%;
+    border-radius: 20px;
+    padding: 50px;
+}
+input[type="text"]{
+    background-color: cornflowerblue;
+    border: 2px solid lightslategray;
+    border-radius: 2px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="text"]::placeholder{
+    color: red;
+}
+input[type="text"]:focus{
+    outline: 2px solid lightseagreen;
+}
