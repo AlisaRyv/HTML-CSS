@@ -2,10 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>form</title>
   <link rel="stylesheet" href="Style6_6.css">
 </head>
 <body>
+<form class="form-registration">
+    <label for="name">Enter name: </label>
+    <input type="text" name="name" id="name" placeholder="Name" required> <sup>*</sup>
 
+    <label for="mail">Enter email: </label>
+    <input type="email" name="mail" id="mail" placeholder="email" required> <sup>*</sup>
+
+    <label for="pass">Enter password: </label>
+    <input type="password" name="password" id="pass" placeholder="password" required> <sup>*</sup>
+
+    <label for="num">Enter age: </label>
+    <input type="number" name="age" id="num" min="18" max="100"><sup>*</sup>
+
+    <label>Sex</label>
+    <label><input type="radio" name="gender" value="male">Men</label>
+    <label><input type="radio" name="gender" value="female">Women</label>
+    <label>
+        <input type="checkbox" name="news">Get news
+    </label>
+
+    <label for="lorem">Country</label>
+    <select id="lorem">
+        <option value="">Choose the country: </option>
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+    </select>
+
+    <label for="phone"></label>
+    <select id="phone">
+        <optgroup label="Apple">
+            <option value="x">IPhone X</option>
+            <option value="xr">IPhone XR</option>
+            <option value="xs">IPhone XS</option>
+        </optgroup>
+        <optgroup label="Samsung">
+            <option value="2x">Samsung 2S</option>
+            <option value="3r">Samsung 3S</option>
+            <option value="5s">Samsung 5S</option>
+        </optgroup>
+    </select>
+
+    <label for="comment"></label>
+    <textarea id="comment" rows="4" cols="30"></textarea>
+
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</form>
 </body>
 </html>
