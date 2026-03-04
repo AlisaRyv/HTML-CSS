@@ -1,0 +1,11 @@
+.yes{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightseagreen;
+    margin-bottom: -2px;
+    border-radius: 2px;
+}
+.yes:checked{
+    background: red;
+}
