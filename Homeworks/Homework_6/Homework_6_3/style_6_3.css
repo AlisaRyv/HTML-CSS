@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: Roboto, sans-serif;
+}
+.wrapper{
+    width: 25vw;
+    height: 71vh;
+    margin: 10vh auto;
+}
+.login{
+    height: 90%;
+    border: 1.5px solid #d9d9da;
+    border-radius: 5px;
+}
+.login, form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.login img{
+    width: 50%;
+}
+input[type="text"],
+input[type="password"]{
+    width: 78%;
+    padding: 3% 1%;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    border: 1.5px solid #d9d9da;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: #67b4f8;
+    color: white;
+    border: none;
+    margin: 15px;
+    border-radius: 10px;
+    width: 78%;
+    font-weight: bold;
+    padding: 3% 1%;
+}
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: #727272;
+}
+form a svg{
+    margin-bottom: -6px;
+}
+#facebook{
+    color: #155694;
+    font-size: 16px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+form a {
+    color: #155694;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+.registration{
+    height: 10%;
+    margin-top: 3%;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 1.5px solid #d9d9da;
+}
+.registration a{
+    color: #0094f4;
+    text-decoration: none;
+    font-weight: 600;
+}
