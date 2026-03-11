@@ -1,0 +1,13 @@
+.container{
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.header{
+    width: 100%;
+    height: 15%;
+    background-color: #1d3b93;
+    position: sticky;
+    top: 0;
+}
