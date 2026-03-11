@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    background: lightseagreen;
+    position: relative;
+}
+.sale{
+    width: 70px;
+    height: 40px;
+    background: red;
+    position: absolute;
+    top:-20px;
+    left:-20px;
+}
