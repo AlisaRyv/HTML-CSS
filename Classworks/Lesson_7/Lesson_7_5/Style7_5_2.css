@@ -10,12 +10,24 @@ body{
     height: 250px;
     background: lightseagreen;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .sale{
     width: 70px;
     height: 40px;
-    background: red;
+    background: lightseagreen;
     position: absolute;
-    top:-20px;
-    left:-20px;
+    top: -20px;
+    border-radius: 20px 20px 0 0;
+}
+.sale-bottom{
+    width: 70px;
+    height: 40px;
+    background: lightseagreen;
+    position: absolute;
+    bottom: -20px;
+    border-radius: 0 0 20px 20px;
 }
