@@ -182,3 +182,87 @@ nav a{
 .icon:nth-child(5) div:nth-child(1){
     background: #95CB7C;
 }
+.icons h4{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 3px;
+}
+.icons p{
+    color: #8E88C1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.info__w-1153 h2{
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+    margin: 50px 0;
+}
+.info__w-1153 p{
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin: 50px 0 152px 0;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 26px;
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+}
+.card img{
+    width: 52px;
+    height: 52px;
+}
+.card p{
+    width: 178px;
+    line-height: 20px;
+}
+/*-------------------------------- MAP & FOOTER ------------------------------------*/
+iframe{
+    width: 1400px;
+    height: 664px;
+}
+footer{
+    width: 1400px;
+    height: 94px;
+    background: #071341;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    width: 96px;
+    height: 24.039px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+}
