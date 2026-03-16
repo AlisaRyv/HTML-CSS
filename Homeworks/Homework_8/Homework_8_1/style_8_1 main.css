@@ -2,11 +2,12 @@
 .cards{
     font-family: 'Inter', sans-serif;
     width: 1180px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 32px;
+    flex-wrap: wrap;
+    margin: 64px 48px;
 }
 .card{
     width: 372px;
@@ -15,3 +16,21 @@
 .card img{
     width: 100%;
 }
+.card h3{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+    margin: 20px 0 15px 0;
+}
+.card p{
+     color: #3C3C43;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 120%; /* 15.6px */
+     letter-spacing: 1.5px;
+     text-transform: uppercase;
+    margin-bottom: 32px;
+ }
