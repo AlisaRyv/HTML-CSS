@@ -1,0 +1,20 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    gap: 30px;
+}
+.btn-primary{
+    background-color: #3B5998;
+}
+.grid-wrapper{
+    display: grid;
+    height: 80vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
