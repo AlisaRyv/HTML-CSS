@@ -1,5 +1,7 @@
 .carousel{
     height: 50vh;
+    width: 50vw;
+    margin: 50px;
 }
 .carousel img{
     height: 50vh;
